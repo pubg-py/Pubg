@@ -1,0 +1,26 @@
+// using methods
+
+class Rectangle{
+	int length;
+	int breadth;
+	int are;
+	
+void values(int l, int b) {
+	length = l;
+    breadth = b;
+    are=l*b;
+}
+void display() {  
+	System.out.println("Area of Rectangel is : "+are);	
+} 
+}
+
+public class Area {
+
+	public static void main(String[] args) {
+Rectangle r=new Rectangle();
+r.values(10,20);
+r.display();
+	}
+
+}
